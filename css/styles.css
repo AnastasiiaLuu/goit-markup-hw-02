@@ -14,9 +14,7 @@ color: var(--WHITE, #FFF);
 
 .link {text-decoration: none;}
 
-body {font-family: 'Roboto', sans-serif;
-color: #434455;
-color: #2E2F42;
+body {font-family: 'Roboto', sans-serif;}
 
 
 .logo {
@@ -84,6 +82,32 @@ h1 {color: #FFF;}
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;}
+
+        .the-end {background-color: #2e2f42;}
+        .logo-end {color: var(--IRIS, #4D5AE5);
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.16; /* 116.667% */
+            letter-spacing: 0.03em;
+            text-transform: uppercase;}
+            
+         .logo-end-plus {color: var(--CLOUD, #F4F4FD);
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.16; /* 116.667% */
+            letter-spacing: 0.03em;
+            text-transform: uppercase;}   
+
+       .text-par {color: var(--CLOUD, #F4F4FD);
+        /* Body */
+    
+        font-size: 16px;
+        
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.32px;}
 
     
     
