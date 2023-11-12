@@ -16,7 +16,8 @@ color: var(--WHITE, #FFF);
 
 body {font-family: 'Roboto', sans-serif;
 color: #434455;
-background-color: #FCFCFC}
+color: #2E2F42;
+
 
 .logo {
     color: var(--IRIS, #4D5AE5);
