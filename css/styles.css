@@ -103,6 +103,8 @@ h1 {color: #FFF;}
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;}
 
+    
+
 
     .team-item {background-color: #F4F4FD;}
     .team-list {color: var(--NAVY-BLUE, #2E2F42);
@@ -114,10 +116,44 @@ h1 {color: #FFF;}
         letter-spacing: 0.02em;
         text-transform: capitalize;}
 
-        
+        .name {color: var(--NAVY-BLUE, #2E2F42);
+            text-align: center;
+            /* Header 3 */
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2; /* 120% */
+            letter-spacing: 0.02em;}
+         
+            .work {color: var(--SLATE, #434455);
+                text-align: center;
+                /* Body */
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5; /* 150% */
+                letter-spacing: 0.02em;}
 
 
-        
+        .portfolio-list{color: var(--NAVY-BLUE, #2E2F42);
+            text-align: center;
+            /* Header 2 */
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.11; /* 111.111% */
+            letter-spacing: 0.02em;
+            text-transform: capitalize;}
+
+            .service {color: var(--NAVY-BLUE, #2E2F42);
+                /* Header 3 */
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.2; /* 120% */
+                letter-spacing: 0.02;}
+            .category {color: var(--SLATE, #434455);
+                /* Body */
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5; /* 150% */
+                letter-spacing: 0.02em;}
         
         .the-end {background-color: #2e2f42;}
         .logo-end {color: var(--IRIS, #4D5AE5);
