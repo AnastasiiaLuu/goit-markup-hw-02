@@ -1,3 +1,12 @@
+body {font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;}
+
+    .list {list-style-type: none;}
+
+    .link {text-decoration: none;}
+
+
 button {cursor: pointer;
 background-color: #4D5AE5;
 color: var(--WHITE, #FFF);
@@ -10,16 +19,6 @@ color: var(--WHITE, #FFF);
 
     button:hover {background-color: #404BBF;}
     button:focus {background-color: #404BBF;}
-
-
-
-.list {list-style-type: none;}
-
-.link {text-decoration: none;}
-
-body {font-family: 'Roboto', sans-serif;
-color: #434455;
-background-color: #FFFFFF;}
 
 
 .logo {
@@ -76,6 +75,33 @@ h1 {color: #FFF;}
     /* 107.143% */
     letter-spacing: 0.02em;;}
 
+
+.benefits-item {color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1/11; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+
+    .benefits-list-one, .benefits-list-two, .benefits-list-three, .benefits-list-four 
+    {color: var(--NAVY-BLUE, #2E2F42);
+        /* Header 3 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2; /* 120% */
+        letter-spacing: 0.02em;}
+
+        .benefits-paragf-one, .benefits-paragf-two, .benefits-paragf-two, .benefits-paragf-four 
+        {color: var(--SLATE, #434455);
+            /* Body */
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5; /* 150% */
+            letter-spacing: 0.02em;}
+
+
     .team {background-color: #F4F4FD;}
     .tit {color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
@@ -87,6 +113,11 @@ h1 {color: #FFF;}
         letter-spacing: 0.02em;
         text-transform: capitalize;}
 
+        
+
+
+        
+        
         .the-end {background-color: #2e2f42;}
         .logo-end {color: var(--IRIS, #4D5AE5);
             font-family: 'Raleway', sans-serif;
