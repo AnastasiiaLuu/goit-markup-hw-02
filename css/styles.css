@@ -4,7 +4,9 @@ button {cursor: pointer;}
 
 .link {text-decoration: none;}
 
-body {font-family: 'Roboto', sans-serif;}
+body {font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color: #FCFCFC}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -46,5 +48,8 @@ body {font-family: 'Roboto', sans-serif;}
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;}
+
+               
+.contacts-link:hover {color: #404BBF ;}
 
     
