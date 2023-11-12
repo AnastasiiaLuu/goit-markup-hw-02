@@ -7,15 +7,17 @@ body {font-family: 'Roboto', sans-serif;
     .link {text-decoration: none;}
 
 
-button {cursor: pointer;
-background-color: #4D5AE5;
-color: var(--WHITE, #FFF);
+button {cursor: pointer}
+.pressbutton {color: var(--WHITE, #FFF);
     /* Button Text */
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.04em;}
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;}
+
+
 
     button:hover {background-color: #404BBF;}
     button:focus {background-color: #404BBF;}
