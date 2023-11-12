@@ -61,6 +61,8 @@ color: var(--WHITE, #FFF);
         /* 150% */
         letter-spacing: 0.02em;}
 
+        .contacts {font-style: normal}
+
            
 .contacts-link:hover, .contacts-link:focus {color: #404BBF ;}
 
@@ -85,7 +87,7 @@ h1 {color: #FFF;}
     letter-spacing: 0.02em;
     text-transform: capitalize;}
 
-    .benefits-list-one, .benefits-list-two, .benefits-list-three, .benefits-list-four 
+    .benefits-list 
     {color: var(--NAVY-BLUE, #2E2F42);
         /* Header 3 */
         font-size: 20px;
@@ -93,7 +95,7 @@ h1 {color: #FFF;}
         line-height: 1.2; /* 120% */
         letter-spacing: 0.02em;}
 
-        .benefits-paragf-one, .benefits-paragf-two, .benefits-paragf-two, .benefits-paragf-four 
+        .benefits-paragf
         {color: var(--SLATE, #434455);
             /* Body */
             font-size: 16px;
@@ -102,14 +104,13 @@ h1 {color: #FFF;}
             letter-spacing: 0.02em;}
 
 
-    .team {background-color: #F4F4FD;}
-    .tit {color: var(--NAVY-BLUE, #2E2F42);
+    .team-item {background-color: #F4F4FD;}
+    .team-list {color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         /* Header 2 */
         font-size: 36px;
         font-weight: 700;
-        line-height: 1.11;
-        /* 111.111% */
+        line-height: 1.11; /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;}
 
@@ -123,7 +124,7 @@ h1 {color: #FFF;}
             font-family: 'Raleway', sans-serif;
             font-size: 18px;
             font-weight: 700;
-            line-height: 1.16; /* 116.667% */
+            line-height: 1.17; /* 116.667% */
             letter-spacing: 0.03em;
             text-transform: uppercase;}
             
@@ -131,7 +132,7 @@ h1 {color: #FFF;}
             font-family: 'Raleway', sans-serif;і
             font-size: 18px;
             font-weight: 700;
-            line-height: 1.16; /* 116.667% */
+            line-height: 1.17; /* 116.667% */
             letter-spacing: 0.03em;
             text-transform: uppercase;}   
 
