@@ -1,4 +1,14 @@
-button {cursor: pointer;}
+button {cursor: pointer;
+background-color: #4D5AE5;
+color: var(--WHITE, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;}
+
+.pressbaton:hover {color: #404BBF;}
 
 .list {list-style-type: none;}
 
@@ -37,7 +47,7 @@ background-color: #FCFCFC}
     /* 150% */
     letter-spacing: 0.02em;}
 
-    .nav-link:hover, .nav-link:focus {color: #404BBF ;}
+    .nav-link:hover, .nav-link:focus, nav-link:active {color: #404BBF ;}
 
     .contacts-link {color: var(--SLATE, #434455);
         /* Body */
@@ -52,9 +62,30 @@ background-color: #FCFCFC}
                
 .contacts-link:hover {color: #404BBF ;}
 
-h1 {color: #FFF;
-background-color: #2E2F42;}
-.test {background-color: #2E2F42;}
+h1 {color: #FFF;}
+.banner {background-color: #2E2F42;}
+.banner-item {color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 0.02em;;}
+
+    .team {background-color: #F4F4FD;}
+    .tit {color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        /* Header 2 */
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;}
+
+    
+    
 
 
     
