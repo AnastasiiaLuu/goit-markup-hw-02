@@ -97,7 +97,7 @@ h1 {color: #FFF;}
             font-size: 18px;
             font-weight: 700;
             line-height: 1.16; /* 116.667% */
-            letter-spacing: 0.03;
+            letter-spacing: 0.03em;
             text-transform: uppercase;}   
 
        .paragh {color: var(--CLOUD, #F4F4FD);
