@@ -132,7 +132,9 @@ h1 {color: #FFF;}
                 line-height: 1.5; /* 150% */
                 letter-spacing: 0.02em;}
 
+.back {background-color: #FFFFFF;}
 
+        
         .portfolio-list{color: var(--NAVY-BLUE, #2E2F42);
             text-align: center;
             /* Header 2 */
@@ -147,7 +149,7 @@ h1 {color: #FFF;}
                 font-size: 20px;
                 font-weight: 500;
                 line-height: 1.2; /* 120% */
-                letter-spacing: 0.02;}
+                letter-spacing: 0.02em;}
             .category {color: var(--SLATE, #434455);
                 /* Body */
                 font-size: 16px;
